@@ -7,7 +7,7 @@ from src.utils import save_rules, plot_top_rules
 
 def main():
 
-    df = pd.read_csv("raw.csv")
+    df = pd.read_csv("data/raw.csv")
 
     cleaner = UniversalSizeCleaner(column='product_size')
     df = cleaner.fit_transform(df)
