@@ -1,6 +1,6 @@
-from basket import create_category_basket, create_pasta_basket
-from evaluation import run_fpgrowth_model, generate_rules, filter_rules
-from utils import format_rules
+from .basket import create_category_basket, create_pasta_basket
+from .evaluation import run_fpgrowth_model, generate_rules, filter_rules
+from .utils import format_rules
 
 
 def category_model(df):
