@@ -1,8 +1,8 @@
 import pandas as pd
 import os
 from src.preprocessing import UniversalSizeCleaner, SizeImputer
-from model import category_model, pasta_model
-from utils import save_rules, plot_top_rules
+from src.model import category_model, pasta_model
+from src.utils import save_rules, plot_top_rules
 
 
 def main():
